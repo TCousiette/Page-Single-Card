@@ -1,0 +1,71 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  top:  99%;
+  left: 40%;
+}
+
+a {
+  color: #6D6F78;
+}
+
+body {
+  background-color: #19A2AE;
+  font-family: 'Kumbh Sans', sans-serif;
+
+}
+h1 {
+  font-weight: 700;
+}
+span {
+  font-weight: 400;
+  color: #969696;
+}
+hr {
+  width: 100%;
+  display: block;
+  color: #969696;
+}
+.top-img {
+  position: fixed;
+  right: 60%;
+  bottom: 50%;
+}
+
+.bot-img {
+  position: fixed;
+  left: 60%;
+  top: 50%;
+}
+
+.card {
+  margin-top: 12%;
+  margin-left: 40%;
+  background-color: white;
+  width: 326px;
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: center;
+}
+.face {
+  border: 5px solid white;
+  border-radius: 100%;
+  margin-top: calc(-48px - 5px);
+  background-color: white;
+}
+.bot-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+      justify-content: space-around;
+}
+.card-footer-social {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.card-footer-social p {
+  letter-spacing: 1px;
+
+}
